@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BC83B5A2C02AB1700AAF26D /* ALDAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B592C02AB1700AAF26D /* ALDAApp.swift */; };
+		4BC83B5C2C02AB1700AAF26D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B5B2C02AB1700AAF26D /* ContentView.swift */; };
+		4BC83B5E2C02AB1900AAF26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC83B5D2C02AB1900AAF26D /* Assets.xcassets */; };
+		4BC83B612C02AB1900AAF26D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC83B602C02AB1900AAF26D /* Preview Assets.xcassets */; };
+		4BC83B632C02AB1900AAF26D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B622C02AB1900AAF26D /* Persistence.swift */; };
+		4BC83B662C02AB1900AAF26D /* ALDA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B642C02AB1900AAF26D /* ALDA.xcdatamodeld */; };
+		4BC83B702C02AB1A00AAF26D /* ALDATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B6F2C02AB1A00AAF26D /* ALDATests.swift */; };
+		4BC83B7A2C02AB1A00AAF26D /* ALDAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B792C02AB1A00AAF26D /* ALDAUITests.swift */; };
+		4BC83B7C2C02AB1A00AAF26D /* ALDAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B7B2C02AB1A00AAF26D /* ALDAUITestsLaunchTests.swift */; };
+		4BC83B8D2C02B7AC00AAF26D /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B8C2C02B7AC00AAF26D /* homeView.swift */; };
+		4BC83B8F2C02B7BE00AAF26D /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B8E2C02B7BE00AAF26D /* profileView.swift */; };
+		4BC83B912C02B7CE00AAF26D /* discoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC83B902C02B7CE00AAF26D /* discoverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BC83B6C2C02AB1A00AAF26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC83B4E2C02AB1700AAF26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC83B552C02AB1700AAF26D;
+			remoteInfo = ALDA;
+		};
+		4BC83B762C02AB1A00AAF26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC83B4E2C02AB1700AAF26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC83B552C02AB1700AAF26D;
+			remoteInfo = ALDA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BC83B562C02AB1700AAF26D /* ALDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC83B592C02AB1700AAF26D /* ALDAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDAApp.swift; sourceTree = "<group>"; };
+		4BC83B5B2C02AB1700AAF26D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BC83B5D2C02AB1900AAF26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BC83B602C02AB1900AAF26D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BC83B622C02AB1900AAF26D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4BC83B652C02AB1900AAF26D /* ALDA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ALDA.xcdatamodel; sourceTree = "<group>"; };
+		4BC83B6B2C02AB1A00AAF26D /* ALDATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALDATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC83B6F2C02AB1A00AAF26D /* ALDATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDATests.swift; sourceTree = "<group>"; };
+		4BC83B752C02AB1A00AAF26D /* ALDAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALDAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC83B792C02AB1A00AAF26D /* ALDAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDAUITests.swift; sourceTree = "<group>"; };
+		4BC83B7B2C02AB1A00AAF26D /* ALDAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BC83B8C2C02B7AC00AAF26D /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		4BC83B8E2C02B7BE00AAF26D /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		4BC83B902C02B7CE00AAF26D /* discoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC83B532C02AB1700AAF26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC83B682C02AB1A00AAF26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC83B722C02AB1A00AAF26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BC83B4D2C02AB1700AAF26D = {
+			isa = PBXGroup;
+			children = (
+				4BC83B582C02AB1700AAF26D /* ALDA */,
+				4BC83B6E2C02AB1A00AAF26D /* ALDATests */,
+				4BC83B782C02AB1A00AAF26D /* ALDAUITests */,
+				4BC83B572C02AB1700AAF26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC83B572C02AB1700AAF26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC83B562C02AB1700AAF26D /* ALDA.app */,
+				4BC83B6B2C02AB1A00AAF26D /* ALDATests.xctest */,
+				4BC83B752C02AB1A00AAF26D /* ALDAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC83B582C02AB1700AAF26D /* ALDA */ = {
+			isa = PBXGroup;
+			children = (
+				4BC83B882C02B73800AAF26D /* View */,
+				4BC83B592C02AB1700AAF26D /* ALDAApp.swift */,
+				4BC83B5B2C02AB1700AAF26D /* ContentView.swift */,
+				4BC83B5D2C02AB1900AAF26D /* Assets.xcassets */,
+				4BC83B622C02AB1900AAF26D /* Persistence.swift */,
+				4BC83B642C02AB1900AAF26D /* ALDA.xcdatamodeld */,
+				4BC83B5F2C02AB1900AAF26D /* Preview Content */,
+			);
+			path = ALDA;
+			sourceTree = "<group>";
+		};
+		4BC83B5F2C02AB1900AAF26D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BC83B602C02AB1900AAF26D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BC83B6E2C02AB1A00AAF26D /* ALDATests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC83B6F2C02AB1A00AAF26D /* ALDATests.swift */,
+			);
+			path = ALDATests;
+			sourceTree = "<group>";
+		};
+		4BC83B782C02AB1A00AAF26D /* ALDAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC83B792C02AB1A00AAF26D /* ALDAUITests.swift */,
+				4BC83B7B2C02AB1A00AAF26D /* ALDAUITestsLaunchTests.swift */,
+			);
+			path = ALDAUITests;
+			sourceTree = "<group>";
+		};
+		4BC83B882C02B73800AAF26D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BC83B8C2C02B7AC00AAF26D /* homeView.swift */,
+				4BC83B8E2C02B7BE00AAF26D /* profileView.swift */,
+				4BC83B902C02B7CE00AAF26D /* discoverView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC83B552C02AB1700AAF26D /* ALDA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC83B7F2C02AB1A00AAF26D /* Build configuration list for PBXNativeTarget "ALDA" */;
+			buildPhases = (
+				4BC83B522C02AB1700AAF26D /* Sources */,
+				4BC83B532C02AB1700AAF26D /* Frameworks */,
+				4BC83B542C02AB1700AAF26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALDA;
+			productName = ALDA;
+			productReference = 4BC83B562C02AB1700AAF26D /* ALDA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BC83B6A2C02AB1A00AAF26D /* ALDATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC83B822C02AB1A00AAF26D /* Build configuration list for PBXNativeTarget "ALDATests" */;
+			buildPhases = (
+				4BC83B672C02AB1A00AAF26D /* Sources */,
+				4BC83B682C02AB1A00AAF26D /* Frameworks */,
+				4BC83B692C02AB1A00AAF26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC83B6D2C02AB1A00AAF26D /* PBXTargetDependency */,
+			);
+			name = ALDATests;
+			productName = ALDATests;
+			productReference = 4BC83B6B2C02AB1A00AAF26D /* ALDATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BC83B742C02AB1A00AAF26D /* ALDAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC83B852C02AB1A00AAF26D /* Build configuration list for PBXNativeTarget "ALDAUITests" */;
+			buildPhases = (
+				4BC83B712C02AB1A00AAF26D /* Sources */,
+				4BC83B722C02AB1A00AAF26D /* Frameworks */,
+				4BC83B732C02AB1A00AAF26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC83B772C02AB1A00AAF26D /* PBXTargetDependency */,
+			);
+			name = ALDAUITests;
+			productName = ALDAUITests;
+			productReference = 4BC83B752C02AB1A00AAF26D /* ALDAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC83B4E2C02AB1700AAF26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4BC83B552C02AB1700AAF26D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4BC83B6A2C02AB1A00AAF26D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4BC83B552C02AB1700AAF26D;
+					};
+					4BC83B742C02AB1A00AAF26D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4BC83B552C02AB1700AAF26D;
+					};
+				};
+			};
+			buildConfigurationList = 4BC83B512C02AB1700AAF26D /* Build configuration list for PBXProject "ALDA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC83B4D2C02AB1700AAF26D;
+			productRefGroup = 4BC83B572C02AB1700AAF26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC83B552C02AB1700AAF26D /* ALDA */,
+				4BC83B6A2C02AB1A00AAF26D /* ALDATests */,
+				4BC83B742C02AB1A00AAF26D /* ALDAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC83B542C02AB1700AAF26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC83B612C02AB1900AAF26D /* Preview Assets.xcassets in Resources */,
+				4BC83B5E2C02AB1900AAF26D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC83B692C02AB1A00AAF26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC83B732C02AB1A00AAF26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC83B522C02AB1700AAF26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC83B632C02AB1900AAF26D /* Persistence.swift in Sources */,
+				4BC83B5C2C02AB1700AAF26D /* ContentView.swift in Sources */,
+				4BC83B8F2C02B7BE00AAF26D /* profileView.swift in Sources */,
+				4BC83B5A2C02AB1700AAF26D /* ALDAApp.swift in Sources */,
+				4BC83B8D2C02B7AC00AAF26D /* homeView.swift in Sources */,
+				4BC83B662C02AB1900AAF26D /* ALDA.xcdatamodeld in Sources */,
+				4BC83B912C02B7CE00AAF26D /* discoverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC83B672C02AB1A00AAF26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC83B702C02AB1A00AAF26D /* ALDATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC83B712C02AB1A00AAF26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC83B7C2C02AB1A00AAF26D /* ALDAUITestsLaunchTests.swift in Sources */,
+				4BC83B7A2C02AB1A00AAF26D /* ALDAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC83B6D2C02AB1A00AAF26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC83B552C02AB1700AAF26D /* ALDA */;
+			targetProxy = 4BC83B6C2C02AB1A00AAF26D /* PBXContainerItemProxy */;
+		};
+		4BC83B772C02AB1A00AAF26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC83B552C02AB1700AAF26D /* ALDA */;
+			targetProxy = 4BC83B762C02AB1A00AAF26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BC83B7D2C02AB1A00AAF26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC83B7E2C02AB1A00AAF26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC83B802C02AB1A00AAF26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALDA/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TFQCQQA52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.minmax.ALDA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC83B812C02AB1A00AAF26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALDA/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TFQCQQA52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.minmax.ALDA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BC83B832C02AB1A00AAF26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TFQCQQA52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.minmax.ALDATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALDA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALDA";
+			};
+			name = Debug;
+		};
+		4BC83B842C02AB1A00AAF26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TFQCQQA52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.minmax.ALDATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALDA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALDA";
+			};
+			name = Release;
+		};
+		4BC83B862C02AB1A00AAF26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TFQCQQA52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.minmax.ALDAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALDA;
+			};
+			name = Debug;
+		};
+		4BC83B872C02AB1A00AAF26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TFQCQQA52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.minmax.ALDAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALDA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC83B512C02AB1700AAF26D /* Build configuration list for PBXProject "ALDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC83B7D2C02AB1A00AAF26D /* Debug */,
+				4BC83B7E2C02AB1A00AAF26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC83B7F2C02AB1A00AAF26D /* Build configuration list for PBXNativeTarget "ALDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC83B802C02AB1A00AAF26D /* Debug */,
+				4BC83B812C02AB1A00AAF26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC83B822C02AB1A00AAF26D /* Build configuration list for PBXNativeTarget "ALDATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC83B832C02AB1A00AAF26D /* Debug */,
+				4BC83B842C02AB1A00AAF26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC83B852C02AB1A00AAF26D /* Build configuration list for PBXNativeTarget "ALDAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC83B862C02AB1A00AAF26D /* Debug */,
+				4BC83B872C02AB1A00AAF26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BC83B642C02AB1900AAF26D /* ALDA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BC83B652C02AB1900AAF26D /* ALDA.xcdatamodel */,
+			);
+			currentVersion = 4BC83B652C02AB1900AAF26D /* ALDA.xcdatamodel */;
+			path = ALDA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BC83B4E2C02AB1700AAF26D /* Project object */;
+}
